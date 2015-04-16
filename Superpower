@@ -1,0 +1,16 @@
+#Ana Karen Zazueta Pimentel
+#A01630485
+
+a=int(input("Give me a number: "))
+b=int(input("Power: "))
+
+def superpower(a,b):
+	x=1
+	y=a
+	while(x<b):
+		y=y*a
+		x=x+1
+	return y
+
+ans=superpower(a,b)
+print("The answer is: ", ans)
